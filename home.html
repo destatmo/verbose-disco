@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaspi.kz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <input type="text" class="search-bar" placeholder="Поиск по Kaspi.kz">
+    </header>
+    <main class="main-content">
+        <section class="banner">
+            <img src="spring-sale.jpg" alt="Весенняя распродажа">
+        </section>
+        <section class="services-grid">
+            <div class="service-item">
+                <i class="fas fa-shopping-cart"></i>
+                <span>Магазин</span>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-university"></i>
+                <span>Мой Банк</span>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-file-invoice"></i>
+                <span>Платежи</span>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-exchange-alt"></i>
+                <span>Переводы</span>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-store"></i>
+                <span>Magnum</span>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-plane"></i>
+                <span>Travel</span>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-landmark"></i>
+                <span>Госуслуги</span>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-bullhorn"></i>
+                <span>Объявления</span>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="offer-item">
+                <span class="tag red">0-0-24</span>
+                <span>Рассрочка 0-0-24</span>
+            </div>
+            <div class="offer-item">
+                <span class="tag yellow">💰</span>
+                <span>Накопительный Депозит 17%</span>
+            </div>
+        </section>
+        <section class="recently-viewed">
+            <h2>Вы недавно смотрели</h2>
+            <div class="products">
+                <div class="product-item">
+                    <img src="ozempic.jpg" alt="Ozempic">
+                    <span class="bonus-tag green">5%Б</span>
+                </div>
+                <div class="product-item">
+                    <img src="smartband.jpg" alt="Фитнес-браслет">
+                    <span class="bonus-tag green">5%Б</span>
+                </div>
+                <div class="product-item">
+                    <img src="hoodie.jpg" alt="Худи Adidas">
+                    <span class="bonus-tag green">10%Б</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <nav class="bottom-nav">
+        <div class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Главная</span>
+        </div>
+        <div class="nav-item">
+            <i class="fas fa-qrcode"></i>
+            <span>Kaspi QR</span>
+        </div>
+        <div class="nav-item">
+            <i class="fas fa-comment"></i>
+            <span>Сообщения</span>
+        </div>
+        <div class="nav-item">
+            <i class="fas fa-bars"></i>
+            <span>Сервисы</span>
+        </div>
+    </nav>
+</body>
+    <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js');
+}
+</script>
+
+</html>
